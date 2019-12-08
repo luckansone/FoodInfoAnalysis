@@ -23,6 +23,14 @@ namespace FoodHazardAnalysis.Controllers
             _service = service;
         }
 
+        public Services.EAdditiveService EAdditiveService
+        {
+            get => default(Services.EAdditiveService);
+            set
+            {
+            }
+        }
+
         // GET: api/Eadditives
         [HttpGet]
         public IEnumerable<Eadditives> GetEadditives()

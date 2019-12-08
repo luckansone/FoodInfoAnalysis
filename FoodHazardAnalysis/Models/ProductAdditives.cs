@@ -11,5 +11,13 @@ namespace FoodHazardAnalysis.Models
 
         public Eadditives Eadditive { get; set; }
         public Products Product { get; set; }
+
+        public FoodHazardBotDBContext FoodHazardBotDBContext
+        {
+            get => default(FoodHazardBotDBContext);
+            set
+            {
+            }
+        }
     }
 }

@@ -22,6 +22,14 @@ namespace FoodHazardAnalysis.Controllers
             _service = service;
         }
 
+        public Services.ProductService ProductService
+        {
+            get => default(Services.ProductService);
+            set
+            {
+            }
+        }
+
         // GET: api/Products
         [HttpGet]
         public IEnumerable<Products> GetProducts()

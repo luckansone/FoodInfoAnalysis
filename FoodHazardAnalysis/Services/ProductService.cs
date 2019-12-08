@@ -15,6 +15,15 @@ namespace FoodHazardAnalysis.Services
         {
             _repository = repository;
         }
+
+        public Repositories.ProductRepository ProductRepository
+        {
+            get => default(Repositories.ProductRepository);
+            set
+            {
+            }
+        }
+
         public List<Products> GetAll()
         {
             return _repository.GetAll();

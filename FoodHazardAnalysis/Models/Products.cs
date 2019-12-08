@@ -19,5 +19,13 @@ namespace FoodHazardAnalysis.Models
         public string Composition { get; set; }
 
         public ICollection<ProductAdditives> ProductAdditives { get; set; }
+
+        public FoodHazardBotDBContext FoodHazardBotDBContext
+        {
+            get => default(FoodHazardBotDBContext);
+            set
+            {
+            }
+        }
     }
 }
