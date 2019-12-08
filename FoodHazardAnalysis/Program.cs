@@ -20,6 +20,5 @@ namespace FoodHazardAnalysis
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
-                //.UseDefaultServiceProvider(option => option.ValidateScopes = false);
     }
 }

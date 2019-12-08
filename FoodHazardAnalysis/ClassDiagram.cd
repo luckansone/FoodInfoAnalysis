@@ -1,2 +1,106 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FoodHazardAnalysis.Controllers.EadditivesController">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAQAAAgBAAQAACAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\EadditivesController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EAdditiveService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodHazardAnalysis.Controllers.ProductsController">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAABAAQAAAAQAAAAAAAAAAQQQAAAAAAAIA=</HashCode>
+      <FileName>Controllers\ProductsController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodHazardAnalysis.Models.Eadditives">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAAAIAAAAAAAgQAIAAAAAAAAAAAAAgACAA=</HashCode>
+      <FileName>Models\Eadditives.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FoodHazardBotDBContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodHazardAnalysis.Models.FoodHazardBotDBContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAgAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\FoodHazardBotDBContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FoodHazardAnalysis.Models.ProductAdditives">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAACAAAAAAAAAACAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Models\ProductAdditives.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FoodHazardBotDBContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodHazardAnalysis.Models.Products">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAACAAAAAAAACAAAAAAAAhQAAAAAAIAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Products.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FoodHazardBotDBContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FoodHazardAnalysis.Repositories.EAdditiveRepository" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\EAdditiveRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Eadditives" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FoodHazardAnalysis.Repositories.ProductRepository" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAIQ=</HashCode>
+      <FileName>Repositories\ProductRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Products" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FoodHazardAnalysis.Services.EAdditiveService" BaseTypeListCollapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Services\EAdditiveService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EAdditiveRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FoodHazardAnalysis.Services.ProductService" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgEAAAAAAIA=</HashCode>
+      <FileName>Services\ProductService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

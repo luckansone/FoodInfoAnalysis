@@ -16,7 +16,7 @@ namespace FoodHazardAnalysis.Repositories
             _context = context;
         }
 
-        public Eadditives Eadditives
+        public Eadditives Additives
         {
             get => default(Eadditives);
             set
@@ -26,12 +26,12 @@ namespace FoodHazardAnalysis.Repositories
 
         public List<Eadditives> GetAll()
         {
-            return _context.Eadditives.OrderBy(x => x.Name).ToList();
+            return _context.Additives.OrderBy(x => x.Name).ToList();
         }
 
         public Eadditives GetById(int Id)
         {
-            return _context.Eadditives.ToList().Find(x => x.Id == Id);
+            return _context.Additives.ToList().Find(x => x.Id == Id);
         }
     }
 }
