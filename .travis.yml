@@ -1,6 +1,5 @@
 language: csharp
 solution: FoodHazardAnalysis.sln
-mono: none
-dotnet: 2.1.502
+dotnet: 2.1.0
 script:
     - dotnet restore
