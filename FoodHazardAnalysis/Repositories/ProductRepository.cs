@@ -15,6 +15,15 @@ namespace FoodHazardAnalysis.Repositories
         {
             _context = context;
         }
+
+        public Products Products
+        {
+            get => default(Products);
+            set
+            {
+            }
+        }
+
         public List<Products> GetAll()
         {
             return _context.Products.OrderBy(x => x.Name).ToList();

@@ -15,6 +15,15 @@ namespace FoodHazardAnalysis.Repositories
         {
             _context = context;
         }
+
+        public Eadditives Eadditives
+        {
+            get => default(Eadditives);
+            set
+            {
+            }
+        }
+
         public List<Eadditives> GetAll()
         {
             return _context.Eadditives.OrderBy(x => x.Name).ToList();
