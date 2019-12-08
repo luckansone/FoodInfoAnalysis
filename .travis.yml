@@ -3,3 +3,5 @@ solution: FoodHazardAnalysis.sln
 dotnet: 2.1.504
 script:
     - dotnet restore
+after_success:
+    - sh .travis/deploy_dockerhub.sh
