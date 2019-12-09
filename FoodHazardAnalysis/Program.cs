@@ -14,7 +14,7 @@ namespace FoodHazardAnalysis
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).UseKestrel().UseContentRoot(Directory.GetCurrentDirectory()).UseStartup<Startup>().Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
