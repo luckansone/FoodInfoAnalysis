@@ -14,11 +14,16 @@ namespace FoodHazardAnalysis
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).UseKestrel().UseContentRoot(Directory.GetCurrentDirectory()).UseStartup<Startup>().Build().Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args)
+        {
+            var port = Environment.GetEnvironmentVariable("PORT");
+
+            return WebHost.CreateDefaultBuilder(args)
+                          .UseStartup<Startup>()
+                          .UseUrls("http://*:"+port);
+        }
     }
 }
