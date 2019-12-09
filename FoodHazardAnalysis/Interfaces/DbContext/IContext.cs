@@ -9,8 +9,7 @@ namespace FoodHazardAnalysis.Interfaces.DbContext
 {
     public interface IContext
     {
-         DbSet<Eadditives> Eadditives { get; set; }
-         DbSet<MigrationHistory> MigrationHistory { get; set; }
+         DbSet<Eadditives> Additives { get; set; }
          DbSet<ProductAdditives> ProductAdditives { get; set; }
          DbSet<Products> Products { get; set; }
 

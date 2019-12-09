@@ -101,7 +101,7 @@ namespace FoodHazardAnalysis.Controllers
                 return BadRequest(ModelState);
             }
 
-            _context.Eadditives.Add(eadditives);
+            _context.Additives.Add(eadditives);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetEadditives", new { id = eadditives.Id }, eadditives);
@@ -116,13 +116,13 @@ namespace FoodHazardAnalysis.Controllers
                 return BadRequest(ModelState);
             }
 
-            var eadditives = await _context.Eadditives.FindAsync(id);
+            var eadditives = await _context.Additives.FindAsync(id);
             if (eadditives == null)
             {
                 return NotFound();
             }
 
-            _context.Eadditives.Remove(eadditives);
+            _context.Additives.Remove(eadditives);
             await _context.SaveChangesAsync();
 
             return Ok(eadditives);
@@ -130,7 +130,7 @@ namespace FoodHazardAnalysis.Controllers
 
         private bool EadditivesExists(int id)
         {
-            return _context.Eadditives.Any(e => e.Id == id);
+            return _context.Additives.Any(e => e.Id == id);
         }
     }
 }

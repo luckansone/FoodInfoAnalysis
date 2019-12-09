@@ -13,8 +13,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace FoodHazardAnalysis
@@ -33,7 +31,7 @@ namespace FoodHazardAnalysis
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<FoodHazardBotDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+            services.AddDbContext<FoodHazardBotDBContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DevConnection")));
             services.AddSingleton<IContext, FoodHazardBotDBContext>();
             services.AddTransient<IContext, FoodHazardBotDBContext>();
             services.AddSingleton<IRepository<Products>, ProductRepository>();
