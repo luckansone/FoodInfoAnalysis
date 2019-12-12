@@ -18,7 +18,6 @@ C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalys
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\bin\Debug\netcoreapp2.1\FoodHazardAnalysis.dll
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\bin\Debug\netcoreapp2.1\FoodHazardAnalysis.pdb
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.csprojAssemblyReference.cache
-C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.csproj.CoreCompileInputs.cache
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.RazorAssemblyInfo.cache
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.RazorAssemblyInfo.cs
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.AssemblyInfoInputs.cache
@@ -26,3 +25,6 @@ C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalys
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.RazorTargetAssemblyInfo.cache
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.dll
 C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\obj\Debug\netcoreapp2.1\FoodHazardAnalysis.pdb
+C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Helen Kravchuk\source\repos\project\FoodHazardAnalysis\FoodHazardAnalysis\bin\Debug\netcoreapp2.1\Properties\launchSettings.json

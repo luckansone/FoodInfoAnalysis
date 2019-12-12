@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,13 +15,17 @@ namespace FoodHazardAnalysis
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).UseKestrel().UseContentRoot(Directory.GetCurrentDirectory()).UseStartup<Startup>().Build().Run();
+            CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args)
         {
             var port = Environment.GetEnvironmentVariable("PORT");
-
+            if(port==null)
+            {
+                port = "50000";
+            }
+      
             return WebHost.CreateDefaultBuilder(args)
                           .UseStartup<Startup>()
                           .UseUrls("http://*:"+port);
