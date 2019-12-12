@@ -4,3 +4,6 @@
 3. Open cmd in directory FoodHazardAnalysis
 4. Run program in cmd _**dotnet run**_
 5. Write in browser _**http://localhost:50000/swagger/index.html**_
+
+# API Documentation
+Check out documentation **_https://sleepy-badlands-30284.herokuapp.com/swagger/index.html_**
