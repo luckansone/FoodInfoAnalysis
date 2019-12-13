@@ -6,4 +6,4 @@
 5. Write in browser _**http://localhost:50000/swagger/index.html**_
 
 # API Documentation
-Check out documentation **_https://sleepy-badlands-30284.herokuapp.com/swagger/index.html_**
+Check documentation out **_https://sleepy-badlands-30284.herokuapp.com/swagger/index.html_**
