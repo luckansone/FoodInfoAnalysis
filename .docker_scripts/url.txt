@@ -1,1 +1,1 @@
-http://0.0.0.0:50606/api/Eadditives
+https://sleepy-badlands-30284.herokuapp.com/api/Eadditives
